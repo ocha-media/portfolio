@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots">
+
+	<title>Shimizu Hayato</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<link rel="stylesheet" href="reset.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yuji+Syuku&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/backanime.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!--ホームページ表示部-->
+
+
+	<div href="" class="btn btn--skip btn--radius" id="skip" onClick="clickSkipBottun()">skip</div>
+	<!--背景アニメーション-->
+	<div class="area">
+		<ul class="circles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+
+		<header class="header">
+			<div class="header_bg">
+				<h1>Shimizu Portfolio</h1>
+				<div class="toggle">
+					<i class="fa-solid fa-bars mob_menu"></i>
+				</div>
+
+			</div>
+			<nav class="nav">
+				<ul>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="works.html">Works</a></li>
+				</ul>
+			</nav>
+		</header>
+		<video src="videos/cha-ic.mp4" autoplay loop muted playsinline width="100%">
+		</video>
+
+		<div id="luxy">
+			<div class="topback">
+				<div id="bg1" data-600="background-position:0px -200px;" data-2000="background-position:0px -450px;">
+					<main>
+
+					</main>
+				</div><!--topback-->
+
+				<footer>
+					<div class="footer-container">
+						<p>&copy;Shimizu&nbsp;Hayato&nbsp;All&nbsp;Right&nbsp;Reserved</p>
+					</div>
+				</footer>
+			</div>
+
+			<!--アニメーション表示部-->
+			<div class="start">
+
+				<div class="shadow-filter">
+					<div id="container">
+
+					</div>
+
+					<div class="start2">
+
+						<p><img src="images/chalogo-w.svg" alt=""></p>
+						<div class="btn btn--skip btn--radius" onClick="clickSkipBottun()">skip</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<!-- jquery-CDN -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+			<!--fontawesoome-->
+			<script src="https://kit.fontawesome.com/7d2e4c5674.js" crossorigin="anonymous"></script>
+
+			<!-- start画面用 -->
+			<script src="js/start.js"></script>
+			<script src="js/progressbar.min.js"></script>
+			<script src="js/p-ber.custom.js"></script>
+
+			<!--ハンバーガーメニュー-->
+			<script src="js/btt.js"></script>
+			<script src="js/menu.js"></script>
+
+			<!--パララックス効果用-->
+			<!--<script type="text/javascript" src="js/luxy.min.js" charset="utf-8"></script>
+		<script charset="utf-8">
+			window.onload = function () {
+				luxy.init();
+			}
+		</script>-->
+
+			<script src="js/skip.js"></script>
+
+
+		</div>
+	</div><!--area-->
+</body>
+
+</html>
