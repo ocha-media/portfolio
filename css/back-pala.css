@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#bg1 {
+	height: 100vh;
+	width: 100vw;
+	background: url(../images/fujisan.jpg) repeat 0 0 scroll;
+	background-size: 160%;
+	background-repeat: no-repeat;
+	z-index: -1000;
+
+
+}
